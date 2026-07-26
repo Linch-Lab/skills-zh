@@ -1,6 +1,6 @@
 ---
 name: grill-me
-description: "嚴厲詰問模式，對使用者的想法進行尖銳挑戰。觸發：grill me、挑戰我"
+description: 此 skill 禁止自動調用。嚴厲詰問模式，對使用者的想法進行尖銳挑戰。觸發：grill me、挑戰我
 ---
 
 # 用途
