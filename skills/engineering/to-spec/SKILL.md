@@ -15,7 +15,7 @@ description: 此 skill 禁止自動調用。將當前對話彙整為規格書並
 
 向使用者確認切入點符合預期。
 
-3. 按下方模板撰寫規格書，發布至專案議題追蹤系統，加上 `ready-for-agent` 標籤。
+3. 按下方模板撰寫規格書，發布至專案議題追蹤系統(project issue tracker)，加上 `ready-for-agent` 標籤。
 
 ## 規格模板
 
