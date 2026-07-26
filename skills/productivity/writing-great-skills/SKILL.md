@@ -1,15 +1,20 @@
+---
+name: writing-great-skills
+description: "此 skill 禁止自動調用。撰寫優秀 Skills 的參考指南 — 讓 skill 行為可預測的詞彙與原則"
+---
+
 # 撰寫優秀 Skills 的參考指南
 
 Skill 存在的目的是從隨機系統中榨取出確定性。可預測性——agent 每次跑都走相同的**流程**，而非產出相同結果——是根本美德；以下每個槓桿都為此服務。
 
 ## 調用方式
 
-兩種選擇，成本不同：
+若需禁止自動調用，在 description 最前方加上「此 skill 禁止自動調用」。
 
-- **Model-invoked（模型自動調用）**：skill 帶描述，agent 可自行觸發，其他 skill 也能引用它。代價是佔用 context——描述每回合都躺在視窗裡。做法：寫一段富含觸發詞的描述（「當使用者想要…、提到…時使用」）。
-- **User-invoked（僅使用者手動調用）**：描述不暴露給 agent，只有你打名字才能觸發，其他 skill 也無法引用。零 context 成本，但消耗你的認知負荷——你必須自己記得它的存在。
+- 禁止自動調用：description 開頭標註，agent 看到後應跳過
+- 允許自動調用：不標註，agent 自行判斷何時載入
 
-本 skill 是 **user-invoked**——僅供手動載入，不可自動觸發。
+本 skill 禁止自動調用。
 
 ## 寫描述
 
